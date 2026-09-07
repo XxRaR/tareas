@@ -4,6 +4,9 @@ CREATE USER 'usr_app'@'localhost' IDENTIFIED BY 'Password123!';
 GRANT ALL PRIVILEGES ON bd_aplicacion.* TO 'usr_app'@'localhost';
 FLUSH PRIVILEGES;
 
+
+https://www.pmi.org/learning/library/networking-benefits-key-factors-na-7211
+
 USE bd_aplicacion;
 CREATE TABLE registros (
     id INT AUTO_INCREMENT PRIMARY KEY,
